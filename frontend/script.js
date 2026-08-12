@@ -1,7 +1,6 @@
 // script.js
 // Connects the Farmer's Buddy frontend to the backend API at localhost:5000.
-
-const API = "http://localhost:5000/api";
+const API = "https://farmers-buddy.onrender.com/api";
 
 // Keep track of login state in the browser's localStorage so it survives a page refresh
 let token = localStorage.getItem("token");
